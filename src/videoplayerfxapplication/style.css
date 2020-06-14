@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 Apr, 2018, 9:11:36 PM
+    Author     : kiran
+*/
+.button{
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.button:hover{
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.4) , 8, 0.8 , 0.8 , 1.8 );
+      -fx-cursor: hand;
+}
+#openFileBtn{
+    -fx-background-image:url("../Images/new.png"); 
+    -fx-background-size:60;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#playBtn{
+    -fx-background-image:url("../Images/google-play.png"); 
+    -fx-background-size: 64;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#pauseBtn{
+    -fx-background-image:url("../Images/pause.png"); 
+    -fx-background-size:60;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#stopBtn{
+    -fx-background-image:url("../Images/stop.png"); 
+    -fx-background-size: 60;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#exitBtn{
+    -fx-background-image:url("../Images/exit.png"); 
+    -fx-background-size: 30;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#forwardSeek{
+    -fx-background-image:url("../Images/two-fast-forward-arrows.png"); 
+    -fx-background-size: 60;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#backwardSeek{
+    -fx-background-image:url("../Images/two-fast-backward-arrows.png"); 
+    -fx-background-size: 60;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#seekSlider {
+    -fx-opacity: 0;
+}
+#seekSlider:hover {
+    -fx-opacity: 1;
+}
+#borderpane{
+    -fx-background-color:black;
+}
+#playTime{
+    -fx-color:grey;
+}
+.button:pressed, .button:default:hover:pressed {
+  -fx-background-color:white;
+  -fx-text-fill: #1d1d1d;
+}
+#speaker{
+     -fx-background-image:url("../Images/speaker.png"); 
+    -fx-background-size: 50;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#speaker:pressed, #speaker:default:hover:pressed {
+  -fx-background-color:red;
+  -fx-text-fill: #1d1d1d;
+}
